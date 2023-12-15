@@ -1,0 +1,62 @@
+body{
+    background-color: #5B7553;
+    color: #C3E8BD;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.titulo{
+    font-size: 36px;
+    font-style: italic;
+    color: #9DDBAD;
+    transition: 0.3s ease-in-out;
+}
+.titulo:hover{
+    color: #255c33;
+}
+
+.titulo::first-letter{
+    color: #af1108;
+}
+.esporte{
+    font-weight: 600;
+}
+.img_esporte{
+    max-width: 250px;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.img_esporte:hover{
+    transform: scale(1.1);
+
+}
+.container{
+    background-color: #C3E8BD;
+    border-radius: 20px;
+}
+.img_maior{
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.medalhas{
+    background-color: #8EB897;
+    border-radius: 20px;
+}
+
+.subtitulo{
+    color: #5B7553;
+}
+
+.destaque{
+    color: rgb(7, 9, 0)
+}
+
+.curiosidades{
+    background-color: #22221e;
+    border-radius: 20px;
+
+}
